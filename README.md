@@ -1,24 +1,8 @@
-# README
+# Keepable API
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+## Using the application
 
-Things you may want to cover:
+- Run `bundle install` to install the app ruby dependencies.
+- Run `rails db:setup` to initialize the database
+- Run `rails s` to start the application.
 
-* Ruby version
-
-* System dependencies
-
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
