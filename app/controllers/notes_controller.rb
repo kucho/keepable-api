@@ -3,7 +3,7 @@ class NotesController < ApplicationController
 
   # GET /notes
   def index
-    @notes = notes
+    @notes = notes.order(created_at: :desc)
 
     render json: @notes
   end
